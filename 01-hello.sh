@@ -2,4 +2,8 @@
 
 echo "Hello, World!"
 
-date
+echo "Today is: $(date)"
+
+echo "Running as: $USER"
+
+echo "Current directory: $PWD"
