@@ -25,4 +25,4 @@ install_package(){
 print_header "Installing packages"
 install_package "git"
 install_package "wget"
-install_package "curl"
+install_package "mongodb-org"
