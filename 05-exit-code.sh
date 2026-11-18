@@ -9,7 +9,7 @@ else
     exit 1
 fi
 
-ls /fakedir &>> /dev/null
+ls /home &>> /dev/null
 
 if (($?==0));then
     echo "SUCCESS"
