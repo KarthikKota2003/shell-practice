@@ -4,7 +4,7 @@ day=$(date +"%A")
 
 if [ $day -e "Saturday" || $day -e "Sunday"];then
     echo "Weekend! Enjoy your holiday"
-elif [ $day -e "Monday" ]
+elif [ $day -e "Monday" ];then
     echo "Start of the week, Let's go!"
 else
     echo "Weekday. Go to school/work"
