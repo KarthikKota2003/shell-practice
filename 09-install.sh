@@ -1,5 +1,5 @@
 #Checking root user
-if [[$USER != "root"]]; then
+if [[ $USER != "root" ]]; then
     echo "Please run as root user"
     exit 1
 fi
