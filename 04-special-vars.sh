@@ -16,4 +16,4 @@ echo "Background PID: $!"
 
 echo "RANDOM: $((RANDOM%100 +1 ))"
 
-echo "Script ran in: $seconds"
+echo "Script ran in: $SECONDS"
