@@ -1,6 +1,6 @@
 #!/bin/bash
 
-name=Kartheek
+name=Shanmukha
 age=23
 city=Hyderabad
 
