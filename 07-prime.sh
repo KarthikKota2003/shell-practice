@@ -4,7 +4,7 @@ if (( $# != 1 ));then
     echo "Arguement is missing"
     exit 1
 else
-    for i in $(seq 2 "((${1}-1))");
+    for i in $(seq 2 $((${1}-1)));
     do 
         if (("$1" % "$i" == 0));then
             echo "$1 is not prime number"
